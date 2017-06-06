@@ -69,12 +69,30 @@ namespace FishLandProj
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //so that the first time Default.aspx is loaded, an image appears. 
+            if (!IsPostBack)
+            {
+                SetImageUrl();
+            }
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+        }
+
+        //Tick event for the timer control
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            SetImageUrl();
+        }
+
+        //extracted method, from Timer1_Tick method
+        private void SetImageUrl()
+        {
+            Random _rand = new Random();
+            int i = _rand.Next(1, 4);
+            Image1.ImageUrl = "~/images/" + i.ToString() + ".png";
         }
     }
 

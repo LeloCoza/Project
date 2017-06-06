@@ -10,22 +10,22 @@ namespace BusinessLayer
         //create, select, update, delete functions to update from presentation layer to database layer
         public void AddActorIdentity(ActorIdentity actor_identity)
         {
-            objDataLayer.AddActorIdentityDB(actor_identity);
+            objDataLayer.AddActorIdentintyDB(actor_identity);
         }
 
         public void UpdateActorIdentity(ActorIdentity actor_identity)
         {
-            objDataLayer.UpdateActorIdentityDB(actor_identity);
+            objDataLayer.UpdateActorIdentintyDB(actor_identity);
         }
 
         public void DeleteActorIdentity(ActorIdentity actor_identity)
         {
-            objDataLayer.DeleteActorIdentityDB(actor_identity);
+            objDataLayer.DeleteActorIdentintyDB(actor_identity);
         }
 
         public object RetrieveActorIdentity()
         {
-            return objDataLayer.RetrieveActorIdentityDB();
+            return objDataLayer.RetrieveActorIdentintyDB();
         }
     }
 }

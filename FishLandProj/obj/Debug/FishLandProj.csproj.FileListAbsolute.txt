@@ -81,3 +81,5 @@ C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\bin\Microsoft.Owin.Se
 C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\obj\Debug\FishLandProj.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\obj\Debug\FishLandProj.dll
 C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\obj\Debug\FishLandProj.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\bin\DatabaseLayer.dll
+C:\Users\User\Desktop\Repository\FishLandProj\FishLandProj\bin\DatabaseLayer.pdb

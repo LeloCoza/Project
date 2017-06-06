@@ -17,7 +17,7 @@ namespace DatabaseLayer
         public void AddOderDB(Oder oder)
         {
             DataSet ds = new DataSet();
-            string sql = "INSERT into Oder (Status, TotalAmount, Date, AuthenticationID) VALUES ('" + oder.Status + "','" + oder.TotalAmount + "','" + oder.Date + oder.Authentication + "')";
+            string sql = "INSERT into Oder (Status, TotalAmount, Date, AuthenticationID) VALUES ('" + oder.Status + "','" + oder.TotalAmount + "','" + oder.Date + oder.AuthenticationID + "')";
             db.InsertUpdateDeleteSQLString(sql);
         }
 

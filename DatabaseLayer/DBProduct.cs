@@ -15,7 +15,7 @@ namespace DatabaseLayer
         public void AddProductDB(Product product)
         {
             DataSet ds = new DataSet();
-            string sql = "INSERT into Product (ProductName, ProductDescript, ProductPrice, ProductPicture, CategoryID) VALUES ('" + product.ProductName + "','" + product.ProductDescript + "','" + product.ProductPrice + "','" + product.ProductPicture + "','" + product.Category + "')";
+            string sql = "INSERT into Product (ProductName, ProductDescript, ProductPrice, ProductPicture, CategoryID) VALUES ('" + product.ProductName + "','" + product.ProductDescript + "','" + product.ProductPrice + "','" + product.ProductPicture + "','" + product.CategoryID + "')";
             db.InsertUpdateDeleteSQLString(sql);
         }
 

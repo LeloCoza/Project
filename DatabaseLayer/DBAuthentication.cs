@@ -17,7 +17,7 @@ namespace DatabaseLayer
         public void AddAuthenticationDB(Authentication auth)
         {
             DataSet ds = new DataSet();
-            string sql = "INSERT into Authentication (Username, Password, ConfirmPass, ActorID) VALUES ('" + auth.Username + "','" + auth.Password + "','" + auth.ConfirmPass + "','" + auth.Actor + "')";
+            string sql = "INSERT into Authentication (Username, Password, ConfirmPass, ActorID) VALUES ('" + auth.Username + "','" + auth.Password + "','" + auth.ConfirmPass + "','" + auth.ActorID + "')";
             db.InsertUpdateDeleteSQLString(sql);
         }
 

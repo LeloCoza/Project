@@ -39,7 +39,7 @@
         <br />
         <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
         <br /><br />
-        <asp:Button ID="btnRegister" runat="server" Text="Register" />
+        <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" />
         <br /><br />
          <asp:Label ID="lblRegister" runat="server" Text="You have been registered!" Visible="false" ForeColor="Black"></asp:Label> 
     </div>

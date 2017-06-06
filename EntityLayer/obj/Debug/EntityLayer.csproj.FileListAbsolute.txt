@@ -1,5 +1,9 @@
+C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityLayer.dll.config
 C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityLayer.dll
 C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityLayer.pdb
-C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\obj\Debug\EntityLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\obj\Debug\EntityLayer.dll
 C:\Users\User\Desktop\Repository\FishLandProj\EntityLayer\obj\Debug\EntityLayer.pdb

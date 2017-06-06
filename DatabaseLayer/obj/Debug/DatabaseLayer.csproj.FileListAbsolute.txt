@@ -1,4 +1,9 @@
 C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\DatabaseLayer.dll
 C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\DatabaseLayer.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\EntityLayer.dll
+C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\EntityLayer.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\obj\Debug\DatabaseLayer.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\obj\Debug\DatabaseLayer.dll
 C:\Users\User\Desktop\Repository\FishLandProj\DatabaseLayer\obj\Debug\DatabaseLayer.pdb

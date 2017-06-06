@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB.cs" />
+    <Compile Include="DBActor.cs" />
+    <Compile Include="DBActorIdentity.cs" />
+    <Compile Include="DBAuthentication.cs" />
+    <Compile Include="DBCategory.cs" />
+    <Compile Include="DBOder.cs" />
+    <Compile Include="DBOderDetails.cs" />
+    <Compile Include="DBProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

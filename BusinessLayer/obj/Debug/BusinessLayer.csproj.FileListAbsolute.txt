@@ -2,3 +2,10 @@ C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\BusinessLa
 C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\BusinessLayer.pdb
 C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\DatabaseLayer.dll
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\DatabaseLayer.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Repository\FishLandProj\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache

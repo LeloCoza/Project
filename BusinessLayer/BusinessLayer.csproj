@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLActor.cs" />
+    <Compile Include="BLActorIdentity.cs" />
+    <Compile Include="BLAuthentication.cs" />
+    <Compile Include="BLCategory.cs" />
+    <Compile Include="BLOder.cs" />
+    <Compile Include="BLOderDetails.cs" />
+    <Compile Include="BLProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

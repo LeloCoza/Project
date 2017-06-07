@@ -51,71 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actor.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ActorIdentity.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Authentication.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Category.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FishLandModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FishLandModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FishLandModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FishLandModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FishLandModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Oder.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OderDetail.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Product.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>FishLandModel.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="FishLandModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FishLandModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="FishLandModel.edmx.diagram">
-      <DependentUpon>FishLandModel.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="FishLandModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FishLandModel.edmx</DependentUpon>
-      <LastGenOutput>FishLandModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="FishLandModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FishLandModel.edmx</DependentUpon>
-      <LastGenOutput>FishLandModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

@@ -23,21 +23,29 @@ namespace FishLandProj
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            
-
-            actor.Name = txtName.Text;
-            actor.Surname = txtSurname.Text;
-            actor.DateOfBirth = DateTime.Parse(txtDOB.Text);
-            actor.Cellphone = txtCellphone.Text;
-
-            auth.Username = txtUsername.Text;
-            auth.Password = txtPassword.Text;
-            auth.ConfirmPass = txtCPassword.Text;
-
-            actor.Email = txtEmail.Text;
-            actor.Address = txtAddress.Text;
             actor.ActorIdentityID = 1;
-            //actoridentity.ActorIdentityID = 1;
+
+
+            if (actoridentity.ActorIdentityID == 1 && actoridentity.Description == "Customer")
+            {
+                actor.Name = txtName.Text;
+                actor.Surname = txtSurname.Text;
+                actor.DateOfBirth = DateTime.Parse(txtDOB.Text);
+                actor.Cellphone = txtCellphone.Text;
+
+                auth.Username = txtUsername.Text;
+                auth.Password = txtPassword.Text;
+                auth.ConfirmPass = txtCPassword.Text;
+                auth.ActorID = actor.ActorID;
+
+                actor.Email = txtEmail.Text;
+                actor.Address = txtAddress.Text;
+
+                //actoridentity.ActorIdentityID = 1;
+                //actor.ActorIdentityID = actoridentity.ActorIdentityID;
+
+               
+            }
 
             bl_actor.AddActor(actor);
             bl_auth.AddAuthentication(auth);
@@ -53,6 +61,9 @@ namespace FishLandProj
             txtSurname.Text = "";
             txtDOB.Text = "";
             txtCellphone.Text = "";
+            txtUsername.Text = "";
+            txtPassword.Text = "";
+            txtCPassword.Text = "";
             txtEmail.Text = "";
             txtAddress.Text = "";
         }
